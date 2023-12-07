@@ -28,7 +28,7 @@ public class Lista_01_04 {
                 double base = input.nextDouble();
                 System.out.print("Digite a altura: ");
                 height = input.nextDouble();
-                area = 0.5 * base * height;
+                area = base * height;
                 System.out.printf("A área do triângulo é %.2f", area);
                 break;
             case 3:
